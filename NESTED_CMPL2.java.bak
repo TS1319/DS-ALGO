@@ -1,0 +1,20 @@
+class NESTED_CMPL2 
+{
+	public static void main(String[] args) 
+	{
+		int count = 0;
+
+		for(int i=0; i< 5; i++)
+		{
+			for(int j=5; j>i; j--)                        
+			{
+			count++;
+			System.out.println(count + "  i value ->" +i+ " j  value ->" +j);
+		    }	
+          }
+      
+	}
+}
+
+
+//  O(N*N)

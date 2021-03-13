@@ -1,0 +1,19 @@
+class CHOOSE3 
+{
+	public static void main(String[] args) 
+	{
+		    int icount = 0;
+			int jcount=0;
+
+		for(int i= 10000;  i>0 ; i/=2)                         // option d
+		{
+              icount++;
+			  System.out.println(" i count ==> "+icount + " i Value is ==>"+i);
+		}
+		for(int j=1; j<10000; j=j*2)                   // option c
+		{
+			jcount++;
+        System.out.println(" j count ==> "+jcount + " i Value is ==>"+j);
+		}
+	}
+}
